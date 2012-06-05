@@ -1,0 +1,130 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lName" alignment="0" min="-2" pref="67" max="-2" attributes="0"/>
+                          <Component id="lLastname" alignment="0" min="-2" pref="67" max="-2" attributes="0"/>
+                          <Component id="lTelephone" alignment="0" min="-2" pref="67" max="-2" attributes="0"/>
+                          <Component id="lAddres" alignment="0" min="-2" pref="67" max="-2" attributes="0"/>
+                          <Component id="lID" alignment="0" min="-2" pref="67" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="textCedula" alignment="0" min="-2" pref="118" max="-2" attributes="0"/>
+                          <Component id="textNombre" alignment="0" min="-2" pref="118" max="-2" attributes="0"/>
+                          <Component id="textApellidos" alignment="0" min="-2" pref="118" max="-2" attributes="0"/>
+                          <Component id="textTelefono" alignment="0" min="-2" pref="118" max="-2" attributes="0"/>
+                          <Component id="textDireccion" alignment="0" min="-2" pref="118" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="bAddEmployee" alignment="0" min="-2" pref="189" max="-2" attributes="1"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="textCedula" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lID" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="textNombre" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lName" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="textApellidos" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lLastname" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="textTelefono" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lTelephone" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="textDireccion" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lAddres" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="bAddEmployee" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="14" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="bAddEmployee">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Add Employee"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bAddEmployeeActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="textDireccion">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lAddres">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Address"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lTelephone">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Telephone"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="textTelefono">
+    </Component>
+    <Component class="javax.swing.JTextField" name="textApellidos">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lLastname">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Last Name"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lName">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Name"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="textNombre">
+    </Component>
+    <Component class="javax.swing.JTextField" name="textCedula">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lID">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ID"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
